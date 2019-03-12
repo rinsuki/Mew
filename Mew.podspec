@@ -22,11 +22,7 @@ iOS MicroViewController support library.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Sources/Mew/**/*.swift'
-  
-  s.resource_bundles = {
-    'Mew' => ['Sources/Mew/ContainerView/_ContainerInterfaceBuilderView.xib']
-  }
+  s.source_files = 'Sources/Mew/**/*.swift', 'Sources/Mew/ContainerView/_ContainerInterfaceBuilderView.xib'
 
   s.frameworks = 'UIKit'
   
